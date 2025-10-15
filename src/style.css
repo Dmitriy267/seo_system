@@ -123,6 +123,7 @@ h6 {
         padding: 0px 10px;
     }
 }
+
 @media screen and (max-width: 390px) {
     [class*='__container'] {
         max-width: 372px;

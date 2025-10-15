@@ -1,4 +1,4 @@
-@media screen and (min-width: 390px) and (max-width: 1194px) {
+@media screen and (min-width: 391px) and (max-width: 1194px) {
     .menu__header {
         display: flex;
         flex-direction: column;
@@ -68,5 +68,15 @@
     .number__seo {
         width: 35px;
         height: 35px;
+    }
+    .info-works {
+        margin-top: 29px;
+        gap: 0;
+    }
+    .text__info-works:first-of-type {
+        margin-right: 67px;
+    }
+    .text__info-works:last-of-type {
+        margin-left: 70px;
     }
 }
