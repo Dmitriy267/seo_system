@@ -79,4 +79,58 @@
     .text__info-works:last-of-type {
         margin-left: 70px;
     }
+
+    /*Начало секции аудит*/
+    .section__audit {
+        padding-top: 43px;
+    }
+    .block__audit_all {
+        gap: 25px;
+    }
+    .h2__audit {
+        font-size: 1.875rem;
+        width: 229px;
+    }
+    .block-info__audit {
+        gap: 17px;
+    }
+
+    .item-info__audit_flex {
+        width: 188px;
+        height: 87px;
+    }
+    .item__audit_hidden1,
+    .item__audit_hidden2,
+    .item__audit_hidden3,
+    .item__audit_hidden4 {
+        display: none;
+    }
+    .item__audit_hidden5,
+    .item__audit_hidden6,
+    .item__audit_hidden7,
+    .item__audit_hidden8 {
+        display: flex;
+    }
+    .block-img__audit {
+        width: 54px;
+        height: 54px;
+    }
+    .img__audit5 {
+        width: 25px;
+        height: 25px;
+    }
+    .img__audit6 {
+        width: 28px;
+        height: 28px;
+    }
+    .img__audit7 {
+        width: 39px;
+        height: 39px;
+    }
+    .img__audit8 {
+        width: 31px;
+        height: 31px;
+    }
+
+    /*Конец секции аудит*/
 }

@@ -108,6 +108,7 @@ h6 {
     --text-2: #939393;
     --secondary2-transparent: #e4e4e4;
     --white: white;
+    --additionally: #f4f4f4;
 }
 @media screen and (max-width: 1440px) {
     [class*='__container'] {

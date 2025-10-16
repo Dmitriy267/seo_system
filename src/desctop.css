@@ -296,4 +296,276 @@
     .slider {
         display: none;
     }
+    .section__audit {
+        padding-top: 50px;
+    }
+    .block__audit_all {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 76px;
+    }
+    .block-link__audit {
+        display: flex;
+        width: 285px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .h2__audit {
+        font-family: Segoe;
+        font-size: 2.25rem;
+        line-height: 100%;
+        color: var(--main-text);
+        width: 274px;
+    }
+    .btn__audit_blue {
+        border-radius: 16px;
+        padding: 6px 10px;
+        width: 148px;
+        height: 36px;
+        background: var(--bg-blue);
+        font-size: 0.875rem;
+        line-height: 150%;
+        text-align: center;
+        color: var(--white);
+    }
+    .block-info__audit {
+        display: flex;
+        gap: 37px;
+    }
+    .item-info__audit_flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+        border-radius: 30px;
+        width: 211px;
+        height: 119px;
+        background: var(--additionally);
+    }
+    .item__audit_hidden5,
+    .item__audit_hidden6,
+    .item__audit_hidden7,
+    .item__audit_hidden8 {
+        display: none;
+    }
+    .block-img__audit {
+        border: 1px solid var(--white);
+        border-radius: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 59px;
+        height: 59px;
+    }
+    .img__audit1,
+    .img__audit2 {
+        width: 25px;
+        height: 25px;
+    }
+    .img__audit3 {
+        width: 28px;
+        height: 28px;
+    }
+    .img__audit4 {
+        width: 31px;
+        height: 31px;
+    }
+    .block-text__audit_column {
+        display: flex;
+        flex-direction: column;
+    }
+    .block-text__audit_column p {
+        font-size: 0.875rem;
+        line-height: 150%;
+        color: var(--main-text);
+    }
+    .block-text__audit_column span {
+        font-size: 1.5rem;
+        line-height: 150%;
+        color: var(--main-text);
+    }
+    .block__system_bottom {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .section__system {
+        padding-top: 50px;
+    }
+    .block__system_top {
+        display: flex;
+        width: 100%;
+        gap: 265px;
+    }
+    .block__system_top-left {
+        display: flex;
+        flex-direction: column;
+        width: 636px;
+    }
+    .h2__system_top {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.16em;
+        color: var(--main-text);
+    }
+    .h1__system_top {
+        font-family: Segoe;
+        font-size: 74px;
+        line-height: 100%;
+        color: var(--main-text);
+    }
+    .h1__system_top > span {
+        color: var(--bg-blue);
+    }
+    .block__system_top-right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 408px;
+        height: 106px;
+    }
+    .block__system_top-right p {
+        font-size: 1.125rem;
+        line-height: 100%;
+        color: var(--main-text);
+    }
+    .block__system_bottom {
+        margin-top: 60px;
+    }
+    /*Стили для переворачивающихся карточек*/
+
+    .cardFlip {
+        width: 418px;
+        height: 637px;
+        perspective: 1000px; /* создаёт 3D-перспективу */
+    }
+
+    .cardFlip-content {
+        width: 100%;
+        height: 100%;
+        transition: transform 1s; /* плавность анимации */
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .cardFlip-content.is-flipped {
+        transform: rotateY(180deg); /* поворот на 180 градусов */
+    }
+
+    .cardFlip-inside {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden; /* скрывает обратную сторону */
+        overflow: hidden;
+        border-radius: 30px;
+    }
+
+    .cardFlip-inside--front {
+        display: block;
+    }
+
+    .cardFlip-inside--back {
+        transform: rotateY(180deg); /* изначально повёрнута */
+    }
+
+    .block_front {
+        display: flex;
+        flex-direction: column;
+        gap: 371px;
+        height: 100%;
+        padding-top: 41px;
+        padding-left: 40px;
+        padding-bottom: 44px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bg_front1 {
+        background-image: url('/images/frame/8.jpg');
+    }
+    .bg_front2 {
+        background-image: url('/images/frame/7.1.png');
+    }
+    .bg_front3 {
+        background-image: url('../public/images/frame/9.1.png');
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .numeric__block_front {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 38px;
+        width: 76px;
+        height: 76px;
+    }
+    .color__close1 {
+        border: 1px solid var(--white);
+    }
+    .color__close2 {
+        border: 1px solid var(--text-2);
+    }
+
+    .numeric__block_front span {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 100%;
+    }
+    .color__close1 span {
+        color: var(--white);
+    }
+    .color__close2 span {
+        color: var(--main-text);
+    }
+    .text-front_white {
+        font-family: Segoe;
+        font-size: 2.25rem;
+        line-height: 101%;
+        color: var(--white);
+        width: 340px;
+        height: 108px;
+    }
+    .block_back {
+        display: flex;
+        border-radius: 30px;
+        padding: 41px;
+        width: 418px;
+        height: 637px;
+        background: var(--additionally);
+    }
+    .wrapper__block_back {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 340px;
+        height: 553px;
+    }
+    .color__open {
+        border: 1px solid var(--text-2);
+    }
+    .color__open span {
+        color: var(--main-text);
+    }
+    .text_back-middle {
+        font-size: 1.125rem;
+        line-height: 100%;
+        color: var(--text-2);
+    }
+    .hr_back {
+        background-color: var(--text-2);
+        height: 1px;
+    }
+    .text_back-last {
+        font-family: Segoe;
+        font-size: 2.25rem;
+        line-height: 101%;
+        color: var(--main-text);
+    }
+
+    /* Конец Стили для переворачивающихся карточек*/
 }

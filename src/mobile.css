@@ -144,6 +144,7 @@
     /*стили для слайда*/
 
     .slider {
+        display: block;
         position: relative;
         width: 100%;
         height: 388px;
