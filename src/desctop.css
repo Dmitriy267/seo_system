@@ -568,4 +568,123 @@
     }
 
     /* Конец Стили для переворачивающихся карточек*/
+
+    /* ===== SERVICES SECTION DESKTOP ===== */
+
+    .services {
+        padding-top: 50px;
+    }
+
+    .services__header {
+        display: flex;
+        align-items: center;
+        gap: 457px;
+        margin-bottom: 46px;
+    }
+
+    .services__title {
+        font-family: Segoe;
+        font-size: 4.625rem;
+        line-height: 100%;
+        color: var(--main-text);
+    }
+
+    .services__subtitle {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 100%;
+        color: var(--main-text);
+    }
+
+    .services__slides {
+        gap: 30px;
+    }
+
+    .services__card {
+        border-radius: 33px;
+        width: 407px;
+        height: 444px;
+        background: var(--additionally);
+        padding-top: 38px;
+        padding-left: 32px;
+        padding-bottom: 37px;
+        padding-right: 31px;
+    }
+    /*Стили для контейнера карточки*/
+    .container__card {
+        display: flex;
+        flex-direction: column;
+        height: 370px;
+    }
+    .card__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 23px;
+    }
+    .card__badge,
+    .card__tag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--main-text);
+        border-radius: 16px;
+        font-size: 0.875rem;
+        line-height: 150%;
+        color: var(--main-text);
+    }
+    .card__badge {
+        width: 138px;
+        height: 29px;
+    }
+
+    .card__arrow img {
+        width: 60px;
+        height: 61px;
+    }
+
+    .card__title {
+        font-weight: 600;
+        font-size: 2.25rem;
+        line-height: 100%;
+        color: var(--main-text);
+        width: 242px;
+        height: 84px;
+    }
+    .card__bottom {
+        display: flex;
+        margin-top: 65px;
+    }
+
+    .card__number {
+        font-weight: 400;
+        font-size: 158px;
+        line-height: 100%;
+        color: var(--main-text);
+    }
+    .card__info {
+        display: flex;
+        justify-content: space-between;
+        gap: 7px;
+        margin-left: 21px;
+        margin-top: 116px;
+    }
+    .card__tag {
+        width: 108px;
+        height: 29px;
+    }
+
+    .card__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--main-text);
+        border-radius: 63px;
+        width: 31px;
+        height: 30px;
+    }
+
+    .card__icon img {
+        width: 14px;
+        height: 18px;
+    }
 }

@@ -8,6 +8,7 @@
         <script defer  src="./src/js/gumburger.js"></script>
         <script defer  src="./src/js/slider.js"></script>
             <script defer  src="./src/js/advantes.js"></script>
+                 <script defer src="./src/js/services-slider.js"></script>
         <title>seo_system</title>
     </head>
     <body>
@@ -461,6 +462,10 @@
                 </div>
             </div>
         </section>
+
+
+
+        <!--Доработать адаптив-->
         <section class="section__system">
             <div class="system__container">
                 <div class="block__system_top">
@@ -577,6 +582,90 @@
 
         </section>
           <!--Конец аудит-->
+    <!-- Секция Наши услуги -->
+          <section class="services" id="services">
+    <div class="services__container">
+        <!-- Верхний блок с заголовком и текстом -->
+        <div class="services__header">
+            <h2 class="services__title">Наши услуги</h2>
+            <p class="services__subtitle">Услуги, которые ускоряют рост вашего бизнеса</p>
+        </div>
+        
+        <!-- Блок с карточками -->
+        <div class="services__content">
+            <div class="services__slider" id="servicesSlider">
+                <div class="services__slides">
+                    <!-- Карточка 1 -->
+                    <div class="services__card">
+                          <!-- Контейнер для карточки -->
+                        <div class="container__card">
+                        <div class="card__top">
+                            <p class="card__badge">Топовые позиции</p>
+                            <div class="card__arrow">
+                                <img src="/images/icons/services/vector-arrow.svg" alt="Стрелка">
+                            </div>
+                        </div>
+                        <h3 class="card__title">SEO 
+продвижение</h3>
+                        <div class="card__bottom">
+                            <span class="card__number">01</span>
+                            <div class="card__info">
+                                <p class="card__tag">Рост бизнеса</p>
+                                <div class="card__icon">
+                                    <img src="/images/icons/services/1.svg" alt="Ракета">
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    
+                    <!-- Карточка 2 -->
+                    <div class="services__card">
+                        <div class="card__top">
+                            <span class="card__badge">Всё включено</span>
+                            <div class="card__arrow">
+                                <img src="/images/icons/vector-arrow.svg" alt="Стрелка">
+                            </div>
+                        </div>
+                        <h3 class="card__title">Вывод в ТОП по запросам</h3>
+                        <div class="card__bottom">
+                            <span class="card__number">02</span>
+                            <div class="card__info">
+                                <span class="card__tag">Качество</span>
+                                <div class="card__icon">
+                                    <img src="/images/icons/megaphone.svg" alt="Мегафон">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка 3 -->
+                    <div class="services__card">
+                        <div class="card__top">
+                            <span class="card__badge">Гарантия надёжности</span>
+                            <div class="card__arrow">
+                                <img src="/images/icons/vector-arrow.svg" alt="Стрелка">
+                            </div>
+                        </div>
+                        <h3 class="card__title">Яндекс Метрика и аналитика</h3>
+                        <div class="card__bottom">
+                            <span class="card__number">03</span>
+                            <div class="card__info">
+                                <span class="card__tag">Скорость</span>
+                                <div class="card__icon">
+                                    <img src="/images/icons/analytics.svg" alt="Аналитика">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Точки для слайдера -->
+                <div class="services__dots"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Конец Наши услуги -->
 
         <script type="module" src="/src/main.js"></script>
     </body>

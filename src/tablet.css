@@ -133,4 +133,64 @@
     }
 
     /*Конец секции аудит*/
+    /* ===== SERVICES SECTION TABLET ===== */
+    .services {
+        padding: 60px 0;
+    }
+
+    .services__container {
+        max-width: 1126px;
+        padding: 0 10px;
+    }
+
+    .services__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .services__title {
+        width: 445px;
+        height: 92px;
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .services__subtitle {
+        font-size: 16px;
+        max-width: 400px;
+        margin-top: 10px;
+    }
+
+    /* Убираем слайдер, делаем grid */
+    .services__slider {
+        overflow: visible;
+    }
+
+    .services__slides {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        transform: none !important;
+    }
+
+    .services__card {
+        min-width: auto !important;
+        width: 100% !important;
+        height: 369px;
+        margin-right: 0 !important;
+    }
+
+    .services__dots {
+        display: none !important;
+    }
+
+    .card__title {
+        font-size: 22px;
+    }
+
+    .card__number {
+        font-size: 108px;
+    }
 }

@@ -301,4 +301,159 @@
     .svg-icon-6-4 {
         fill: var(--bg-blue);
     }
+
+    /* ===== SERVICES SECTION MOBILE ===== */
+    .services {
+        padding: 40px 0;
+    }
+
+    .services__container {
+        max-width: 342px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+    .services__header {
+        margin-bottom: 30px;
+    }
+
+    .services__title {
+        font-family: Segoe;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        color: var(--main-text);
+        margin-bottom: 12px;
+    }
+
+    .services__subtitle {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        color: var(--text-2);
+    }
+
+    /* Слайдер для mobile */
+    .services__slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .services__slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .services__card {
+        min-width: 314px;
+        height: 341px;
+        background: var(--bg-grey);
+        border-radius: 33px;
+        padding: 24px;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .card__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .card__badge {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        color: var(--main-text);
+        border: 1px solid var(--main-text);
+        border-radius: 20px;
+        padding: 6px 12px;
+    }
+
+    .card__arrow img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .card__title {
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: var(--main-text);
+        margin-bottom: 30px;
+    }
+
+    .card__bottom {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .card__number {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 100%;
+        color: var(--main-text);
+        opacity: 0.1;
+    }
+
+    .card__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card__tag {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        color: var(--main-text);
+        border: 1px solid var(--main-text);
+        border-radius: 20px;
+        padding: 6px 12px;
+        white-space: nowrap;
+    }
+
+    .card__icon {
+        width: 32px;
+        height: 32px;
+        background: var(--white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card__icon img {
+        width: 12.42px;
+        height: 16.68px;
+    }
+
+    /* Точки слайдера */
+    .services__dots {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .services__dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--secondary2-transparent);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .services__dot.active {
+        background: var(--bg-blue);
+    }
 }
