@@ -135,32 +135,21 @@
     /*Конец секции аудит*/
     /* ===== SERVICES SECTION TABLET ===== */
     .services {
-        padding: 60px 0;
-    }
-
-    .services__container {
-        max-width: 1126px;
-        padding: 0 10px;
+        padding-top: 51px;
     }
 
     .services__header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 40px;
+        gap: 262px;
+        margin-bottom: 41px;
     }
 
     .services__title {
-        width: 445px;
-        height: 92px;
-        font-size: 36px;
-        margin-bottom: 0;
+        font-size: 4rem;
     }
 
     .services__subtitle {
-        font-size: 16px;
-        max-width: 400px;
-        margin-top: 10px;
+        width: 397px;
+        height: 36px;
     }
 
     /* Убираем слайдер, делаем grid */
@@ -168,29 +157,58 @@
         overflow: visible;
     }
 
-    .services__slides {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-        transform: none !important;
+    .services__card {
+        width: 338px;
+        height: 369px;
+        padding-top: 31px;
+        padding-left: 24px;
+        padding-bottom: 34px;
+        padding-right: 26px;
+    }
+    .container__card {
+        height: 305px;
+    }
+    .card__top {
+        margin-bottom: 12px;
     }
 
-    .services__card {
-        min-width: auto !important;
-        width: 100% !important;
-        height: 369px;
-        margin-right: 0 !important;
+    .p_width3 {
+        width: 165px;
     }
+
+    .card__arrow img {
+        width: 49.68px;
+        height: 50.61px;
+    }
+
+    /*-------*/
 
     .services__dots {
-        display: none !important;
+        display: none;
     }
 
     .card__title {
-        font-size: 22px;
+        font-size: 2rem;
+        width: 226px;
+    }
+    .card__bottom {
+        margin-top: 35px;
+        justify-content: space-between;
     }
 
     .card__number {
-        font-size: 108px;
+        font-size: 8.875rem;
+    }
+    .card__info {
+        margin-left: 0px;
+        margin-top: 91px;
+    }
+
+    /*Измененые названия карточек*/
+    .card-descopt__text {
+        display: none;
+    }
+    .card-tablet__text {
+        display: flex;
     }
 }

@@ -38,10 +38,10 @@ class ServicesSlider {
 
     disableSlider() {
         // Преобразуем в grid для tablet/desktop
-        this.slidesContainer.style.display = 'grid';
-        this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
-        this.slidesContainer.style.gap = '24px';
-        this.slidesContainer.style.transform = 'none';
+        // this.slidesContainer.style.display = 'grid';
+        // this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        // this.slidesContainer.style.gap = '24px';
+        // this.slidesContainer.style.transform = 'none';
 
         // Сбрасываем стили карточек
         //   this.slides.forEach((card) => {
