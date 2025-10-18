@@ -38,17 +38,17 @@ class ServicesSlider {
 
     disableSlider() {
         // Преобразуем в grid для tablet/desktop
-        // this.slidesContainer.style.display = 'grid';
-        // this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
-        // this.slidesContainer.style.gap = '24px';
-        // this.slidesContainer.style.transform = 'none';
+        this.slidesContainer.style.display = 'grid';
+        this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        this.slidesContainer.style.gap = '18px';
+        this.slidesContainer.style.transform = 'none';
 
         // Сбрасываем стили карточек
-        //   this.slides.forEach((card) => {
-        //       card.style.minWidth = 'auto';
-        //       card.style.marginRight = '0';
-        //       card.style.flexShrink = '1';
-        //   });
+        this.slides.forEach((card) => {
+            card.style.minWidth = 'auto';
+            card.style.marginRight = '0';
+            card.style.flexShrink = '1';
+        });
 
         // Скрываем точки
         this.dotsContainer.style.display = 'none';
@@ -110,7 +110,7 @@ class ServicesSlider {
                 // Переключились на mobile - включаем слайдер
                 this.slidesContainer.style.display = 'flex';
                 this.slidesContainer.style.gridTemplateColumns = 'none';
-                this.slidesContainer.style.gap = '0';
+                this.slidesContainer.style.gap = '18';
                 this.dotsContainer.style.display = 'flex';
                 this.initSlider();
             } else {
