@@ -36,6 +36,65 @@
         font-size: 16px;
         max-width: 260px;
     }
+
+    /* ===== SERVICES GRID TABLET ===== */
+
+    .services-grid {
+        padding: 60px 0;
+    }
+
+    .services-grid__container {
+        max-width: 1126px;
+        padding: 0 10px;
+    }
+
+    .services-grid__content {
+        height: 300px;
+        gap: 16px;
+    }
+
+    .service-item--main {
+        width: 500px;
+    }
+
+    .service-item--closed {
+        width: 60px;
+    }
+
+    .service-item--open {
+        width: 200px;
+    }
+
+    .service-item__open {
+        width: 200px;
+    }
+
+    .service-item__vertical-text {
+        font-size: 16px;
+    }
+
+    .service-item__content-overlay {
+        padding: 12px 10px;
+    }
+
+    .service-item__title {
+        font-size: 20px;
+    }
+
+    .service-item__description {
+        font-size: 14px;
+    }
+
+    .service-item__icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .service-item__icon img {
+        width: 35px;
+        height: 35px;
+    }
+
     .seo__main {
         width: 614px;
         padding-top: 15px;
@@ -133,6 +192,71 @@
     }
 
     /*Конец секции аудит*/
+    /* ===== SISTEM SECTION TABLET ===== */
+
+    .block__system_top {
+        gap: 71px;
+    }
+    .block__system_top-left {
+        height: 166px;
+    }
+
+    .h1__system_top {
+        font-size: 4rem;
+    }
+
+    .block__system_top-right {
+        width: 396px;
+    }
+
+    .block__system_bottom {
+        margin-top: 49px;
+    }
+    /*Стили для переворачивающихся карточек*/
+
+    .cardFlip {
+        width: 352px;
+        height: 527px;
+    }
+
+    .block_front {
+        gap: 283px;
+        padding-top: 29px;
+        padding-left: 27px;
+        padding-bottom: 29px;
+    }
+
+    .text-front_white {
+        font-size: 2rem;
+        line-height: 100%;
+        width: 300px;
+    }
+    .text-front_tablet1 {
+        display: none;
+    }
+    .text-front_tablet2 {
+        display: block;
+    }
+
+    .block_back {
+        padding: 30px 41px;
+        width: 352px;
+        height: 527px;
+    }
+    .wrapper__block_back {
+        width: 305px;
+        height: 465px;
+    }
+
+    .text_back-last {
+        font-size: 2rem;
+        width: 305px;
+        height: 121px;
+    }
+
+    /* Конец Стили для переворачивающихся карточек*/
+
+    /* ===== SISTEM SECTION TABLET ===== */
     /* ===== SERVICES SECTION TABLET ===== */
     .services {
         padding-top: 51px;

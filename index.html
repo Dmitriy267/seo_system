@@ -5,9 +5,11 @@
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script defer  src="./src/js/accardion.js"></script>
+         <script defer  src="./src/js/services-grid.js"></script>
         <script defer  src="./src/js/gumburger.js"></script>
         <script defer  src="./src/js/slider.js"></script>
             <script defer  src="./src/js/advantes.js"></script>
+              <script defer src="./src/js/advantes-slider.js"></script>
                  <script defer src="./src/js/services-slider.js"></script>
                      <script defer src="./src/js/timer.js"></script>
         <title>seo_system</title>
@@ -151,7 +153,17 @@
 
                 </div>
                 <div class="block__main_middle">
-                    <div class="seo__main">
+
+                    <div class="services-grid">
+  <div class="services-grid__container">
+    <div class="services-grid__content">
+      <!-- Item 1 - всегда открытый -->
+      <div class="service-item service-item--main" data-item="1">
+        <div class="service-item__content">
+          <!-- контент для item1 -->
+    
+          <div class="service-item__bg" >
+              <div class="seo__main">
                         <ul class="menu__seo">
                             <li class="item__seo"><a href="#" class="link__seo">SEO</a></li>
                              <li class="item__seo_decor"></li>
@@ -175,32 +187,225 @@
                         </div>
 
                     </div>
-                    <!--Начало аккардиона-->
-                                       <div class="accordion">
-                                       
-
-
-
-    
-        <div class="accordion-item" >
-            <div class="header__accordion-content">
-                  <h2 class="h2__accordion-header">Digital-продукты</h2>
-            <div class="number__seo">
-                                <span class="span__number">02</span>
-                            </div> 
-            </div>
-       <div class="descript__accardion-content">
-        <p>Описание</p>
-       </div>
+          </div>
         </div>
-      
-       
-       
-   
-    <!-- Дополнительные элементы -->
+      </div>
+
+      <!-- Item 2 - Digital продукты -->
+      <div class="service-item service-item--closed" data-item="2">
+        <!-- Закрытое состояние -->
+        <div class="service-item__closed">
+          <div class="service-item__vertical-text">Digital-продукты</div>
+          <div class="service-item__number">02</div>
+        </div>
+
+        <!-- Открытое состояние -->
+        <div class="service-item__open">
+          <div
+            class="service-item__bg"
+            style="
+              background-image: url('/public/images/accardeon/rectangle-02.png');
+            "
+          ></div>
+          <div class="service-item__content-overlay">
+            <div class="service-item__header">
+              <div class="service-item__number">02</div>
+              <div class="service-item__icon">
+                <img
+                  src="/public/images/accardeon/component-02.png"
+                  alt="Digital продукты"
+                />
+              </div>
+            </div>
+            <div class="service-item__body">
+              <h3 class="service-item__title">Digital продукты</h3>
+              <p class="service-item__description">
+                Создаем и развиваем digital-продукты: от веб-сервисов и
+                мобильных приложений до сложных платформ.
+              </p>
+              <button class="service-item__button">
+                Подробнее
+                <img
+                  src="/public/images/accardeon/vector-right.png"
+                  alt="Стрелка"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 - Маркетинг -->
+      <div class="service-item service-item--closed" data-item="3">
+        <div class="service-item__closed">
+          <div class="service-item__vertical-text">Маркетинг</div>
+          <div class="service-item__number">03</div>
+        </div>
+
+        <div class="service-item__open">
+          <div
+            class="service-item__bg"
+            style="
+              background-image: url('/public/images/accardeon/rectangle-03.png');
+            "
+          ></div>
+          <div class="service-item__content-overlay">
+            <div class="service-item__header">
+              <div class="service-item__number">03</div>
+              <div class="service-item__icon">
+                <img
+                  src="/public/images/accardeon/component-03.png"
+                  alt="Маркетинг"
+                />
+              </div>
+            </div>
+            <div class="service-item__body">
+              <h3 class="service-item__title">маркетинг</h3>
+              <p class="service-item__description">
+                Настраиваем и ведем рекламу, продвигаем в соцсетях, привлекаем
+                лидов и повышаем лояльность.
+              </p>
+              <button class="service-item__button">
+                Подробнее
+                <img
+                  src="/public/images/accardeon/vector-right.png"
+                  alt="Стрелка"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 - SEO продвижение -->
+      <div class="service-item service-item--closed" data-item="4">
+        <div class="service-item__closed">
+          <div class="service-item__vertical-text">Топовое SEO продвижение</div>
+          <div class="service-item__number">04</div>
+        </div>
+
+        <div class="service-item__open">
+          <div
+            class="service-item__bg"
+            style="
+              background-image: url('/public/images/accardeon/rectangle-04.png');
+            "
+          ></div>
+          <div class="service-item__content-overlay">
+            <div class="service-item__header">
+              <div class="service-item__number">04</div>
+              <div class="service-item__icon">
+                <img
+                  src="/public/images/accardeon/component-04.png"
+                  alt="SEO продвижение"
+                />
+              </div>
+            </div>
+            <div class="service-item__body">
+              <h3 class="service-item__title">топовое seo продвижение</h3>
+              <p class="service-item__description">
+                Продвигаем сайты, повышаем их видимость и привлекаем целевой
+                трафик для роста бизнеса.
+              </p>
+              <button class="service-item__button">
+                Подробнее
+                <img
+                  src="/public/images/accardeon/vector-right.png"
+                  alt="Стрелка"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 - Создание сайтов -->
+      <div class="service-item service-item--closed" data-item="5">
+        <div class="service-item__closed">
+          <div class="service-item__vertical-text">Создание сайтов</div>
+          <div class="service-item__number">05</div>
+        </div>
+
+        <div class="service-item__open">
+          <div
+            class="service-item__bg"
+            style="
+              background-image: url('/public/images/accardeon/rectangle-05.png');
+            "
+          ></div>
+          <div class="service-item__content-overlay">
+            <div class="service-item__header">
+              <div class="service-item__number">05</div>
+              <div class="service-item__icon">
+                <img
+                  src="/public/images/accardeon/component-05.png"
+                  alt="Создание сайтов"
+                />
+              </div>
+            </div>
+            <div class="service-item__body">
+              <h3 class="service-item__title">Создание сайтов</h3>
+              <p class="service-item__description">
+                Разрабатываем продающие сайты, которые привлекают клиентов,
+                отражают ценности бренда.
+              </p>
+              <button class="service-item__button">
+                Подробнее
+                <img
+                  src="/public/images/accardeon/vector-right.png"
+                  alt="Стрелка"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6 - Дизайн -->
+      <div class="service-item service-item--closed" data-item="6">
+        <div class="service-item__closed">
+          <div class="service-item__vertical-text">Дизайн</div>
+          <div class="service-item__number">06</div>
+        </div>
+
+        <div class="service-item__open">
+          <div
+            class="service-item__bg"
+            style="
+              background-image: url('/public/images/accardeon/rectangle-06.png');
+            "
+          ></div>
+          <div class="service-item__content-overlay">
+            <div class="service-item__header">
+              <div class="service-item__number">06</div>
+              <div class="service-item__icon">
+                <img
+                  src="/public/images/accardeon/component-06.png"
+                  alt="Дизайн"
+                />
+              </div>
+            </div>
+            <div class="service-item__body">
+              <h3 class="service-item__title">дизайн</h3>
+              <p class="service-item__description">
+                Создаем целостный визуальный образ бренда: от логотипа и
+                айдентики до дизайна интерфейсов.
+              </p>
+              <button class="service-item__button">
+                Подробнее
+                <img
+                  src="/public/images/accardeon/vector-right.png"
+                  alt="Стрелка"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
- <!--Конец аккардиона-->
 
 
                 </div>
@@ -482,8 +687,12 @@
 
                 </div>
                   <div class="block__system_bottom">
+                         <!--Начало слайдера для переворачивающихся карточек-->
+                         <div class="slider__cards" id="SliderRevertCard">
+                             <div class="slider-slides-cards cards-slides">
                      <!--Начало переворачивающихся карточек-->
                       <!--Начало карточка 1-->
+                      <div class="slider-slide-card card_gap">
                      <div class="cardFlip">
   <div class="cardFlip-content">
     <div class="cardFlip-inside cardFlip-inside--front">
@@ -510,9 +719,11 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
 <!--Конец карточка 1-->
 <!--Начало карточка 2-->
+  <div class="slider-slide-card card_gap">
                  <div class="cardFlip">
   <div class="cardFlip-content">
     <div class="cardFlip-inside cardFlip-inside--front">
@@ -545,8 +756,10 @@
     </div>
   </div>
 </div>
+</div>
 <!--Конец карточка 2-->
 <!--Начало карточка 3-->
+  <div class="slider-slide-card ">
                      <div class="cardFlip">
   <div class="cardFlip-content">
     <div class="cardFlip-inside cardFlip-inside--front">
@@ -555,7 +768,10 @@
 <div class="numeric__block_front color__close1">
     <span>03</span>
 </div>
-<p class="text-front_white">Работаем с абсолютно любой тематикой</p>
+<p class="text-front_white text-front_tablet1">Работаем с абсолютно любой тематикой</p>
+<p class="text-front_white text-front_tablet2">Работаем в самых
+конкурентных 
+сферах</p>
     </div>
     </div>
     <div class="cardFlip-inside cardFlip-inside--back">
@@ -575,9 +791,15 @@
     </div>
   </div>
 </div>
+</div>
 <!--Конец карточка 3-->
 
                      <!--Конец переворачивающихся карточек-->
+                       <!--Конец слайдера для переворачивающихся карточек-->
+                       </div>
+
+                       <div class="slider-dots-cards cards-dots"></div>
+                       </div>
                   </div>
             </div>
 

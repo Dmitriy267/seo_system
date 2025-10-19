@@ -302,6 +302,190 @@
         fill: var(--bg-blue);
     }
 
+    /* ===== SISTEM SECTION MOBILE ===== */
+
+    .block__system_top {
+        flex-direction: column;
+        width: 342px;
+        height: 232px;
+        gap: 21px;
+    }
+    .block__system_top-left {
+        width: 342px;
+        height: 116px;
+    }
+    .h2__system_top {
+        font-size: 1rem;
+        margin-bottom: 27px;
+    }
+    .h1__system_top {
+        font-size: 2.5rem;
+    }
+
+    .block__system_top-right {
+        gap: 18px;
+        width: 342px;
+        height: 96px;
+    }
+    .block__system_top-right p {
+        font-size: 1rem;
+    }
+    .block__system_bottom {
+        margin-top: 29px;
+    }
+    /*Стили для переворачивающихся карточек*/
+
+    .cardFlip {
+        width: 342px;
+        height: 518px;
+    }
+
+    .block_front {
+        display: flex;
+        flex-direction: column;
+        gap: 371px;
+        height: 100%;
+        padding-top: 41px;
+        padding-left: 40px;
+        padding-bottom: 44px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bg_front1 {
+        background-image: url('/images/frame/01.png');
+    }
+    .bg_front2 {
+        background-image: url('/images/frame/7.1.png');
+    }
+    .bg_front3 {
+        background-image: url('/images/frame/9.1.png');
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .numeric__block_front {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 38px;
+        width: 76px;
+        height: 76px;
+    }
+    .color__close1 {
+        border: 1px solid var(--white);
+    }
+    .color__close2 {
+        border: 1px solid var(--text-2);
+    }
+
+    .numeric__block_front span {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 100%;
+    }
+    .color__close1 span {
+        color: var(--white);
+    }
+    .color__close2 span {
+        color: var(--main-text);
+    }
+    .text-front_white {
+        font-family: Segoe;
+        font-size: 2.25rem;
+        line-height: 101%;
+        color: var(--white);
+        width: 340px;
+        height: 108px;
+    }
+    .text-front_tablet2 {
+        display: none;
+    }
+    .block_back {
+        display: flex;
+        border-radius: 30px;
+        padding: 41px;
+        width: 418px;
+        height: 637px;
+        background: var(--additionally);
+    }
+    .wrapper__block_back {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 340px;
+        height: 553px;
+    }
+    .color__open {
+        border: 1px solid var(--text-2);
+    }
+    .color__open span {
+        color: var(--main-text);
+    }
+    .text_back-middle {
+        font-size: 1.125rem;
+        line-height: 100%;
+        color: var(--text-2);
+    }
+    .hr_back {
+        background-color: var(--text-2);
+        height: 1px;
+    }
+    .text_back-last {
+        font-family: Segoe;
+        font-size: 2.25rem;
+        line-height: 101%;
+        color: var(--main-text);
+    }
+
+    /* Конец Стили для переворачивающихся карточек*/
+
+    /* Слайдер для переворачивающихся карточек*/
+    .slider__cards {
+        position: relative;
+        width: 100%;
+        max-width: 1440px;
+        height: 558px;
+        overflow: hidden;
+    }
+    .slider-slides-cards {
+        display: flex;
+
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slider-slide-card {
+        height: 518px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card_gap {
+        margin-right: 17px;
+    }
+    .slider-dots-cards {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 16px;
+    }
+
+    .slider-dot-card {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .slider-dot-card.active {
+        background-color: var(--bg-blue);
+    }
+
+    /* ===== SISTEM SECTION MOBILE ===== */
+
     /* ===== SERVICES SECTION MOBILE ===== */
     .services {
         padding-top: 49px;
