@@ -436,4 +436,101 @@
     .services__dot.active {
         background: var(--bg-blue);
     }
+    /* ===== FOOTER PROMO SECTION MOBILE ===== */
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+    .footer-promo {
+        border-radius: 33px;
+        background-size: 100% 100%;
+        background-position: center;
+        max-width: 342px;
+        height: 600px;
+        position: relative;
+        padding-left: 16px;
+        padding-top: 35px;
+        padding-right: 23px;
+        padding-bottom: 0px;
+    }
+    .footer-promo__content {
+        position: static;
+    }
+    .footer-promo__title {
+        font-size: 1.875rem;
+        line-height: 113%;
+        color: var(--white);
+        width: 325px;
+        height: 72px;
+    }
+
+    .footer-promo__timer {
+        margin-top: 19px;
+    }
+
+    .timer__text {
+        font-size: 0.75rem;
+        line-height: 100%;
+        margin-bottom: 12px;
+    }
+
+    .timer__blocks_top {
+        width: 303px;
+    }
+
+    .timer__block {
+        width: 67px;
+        height: 60px;
+        background-color: #252b38;
+        border-radius: 16px;
+    }
+
+    .timer__number {
+        font-size: 56px;
+        line-height: 100%;
+    }
+
+    .block-radius {
+        height: 30px;
+    }
+    .timer_radius {
+        width: 7px;
+        height: 7px;
+    }
+
+    .timer__label {
+        font-size: 0.625rem;
+    }
+    .timer__blocks_bottom {
+        width: 260px;
+        margin-left: 21px;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .footer-promo__text {
+        font-size: 0.875rem;
+        max-width: 325.44px;
+        margin-top: 18px;
+        margin-bottom: 21px;
+    }
+
+    .footer-promo__button {
+        gap: 8px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .block-graph {
+        position: static;
+        margin-top: 27px;
+        width: 342px;
+        height: 251px;
+        margin-left: -16px;
+    }
+    .img__block-graph_mobile1 {
+        display: none;
+    }
+    .img__block-graph_mobile2 {
+        display: block;
+    }
 }

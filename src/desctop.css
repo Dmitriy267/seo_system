@@ -723,4 +723,175 @@
     .img__icon_hidden2 {
         display: none;
     }
+    /* ===== FOOTER PROMO SECTION DESKTOP ===== */
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 132px;
+    }
+    .footer-promo {
+        border-radius: 33px;
+        background-image: url('/images/frame/footer-img.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 546px;
+        position: relative;
+        padding-left: 35px;
+        padding-top: 38px;
+        padding-right: 33px;
+        padding-bottom: 38px;
+    }
+
+    .footer-promo__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .footer-promo__title {
+        font-family: Segoe;
+        font-size: 3.25rem;
+        line-height: 110%;
+        color: var(--white);
+        margin: 0;
+    }
+
+    .footer-promo__timer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 36px;
+    }
+
+    .timer__text {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 130%;
+        color: var(--text-2);
+        margin-bottom: 11px;
+    }
+
+    .timer__blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .timer__blocks_top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 678px;
+        justify-content: space-between;
+    }
+
+    .timer__block {
+        width: 148px;
+        height: 135px;
+        background-color: #252b38;
+        border-radius: 33px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .timer__number {
+        font-size: 128px;
+        line-height: 100%;
+    }
+
+    .timer__number_clip {
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .timer__number_color1 {
+        background-color: rgba(23, 85, 168, 1);
+    }
+    .timer__number_color2 {
+        background-color: rgba(48, 116, 185, 1);
+    }
+    .timer__number_color3 {
+        background-color: rgba(89, 168, 214, 1);
+    }
+    .timer__number_color4 {
+        background-color: rgba(129, 219, 242, 1);
+    }
+
+    .block-radius {
+        display: flex;
+        flex-direction: column;
+        height: 69px;
+        justify-content: space-between;
+    }
+    .timer_radius {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+    }
+    .color-radius1 {
+        background-color: rgba(23, 85, 168, 1);
+    }
+    .color-radius2 {
+        background-color: rgba(76, 151, 205, 1);
+    }
+    .color-radius3 {
+        background-color: rgba(110, 194, 229, 1);
+    }
+    .timer__label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: var(--text-2);
+    }
+    .timer__blocks_bottom {
+        display: flex;
+        width: 582px;
+        margin-left: 57px;
+        gap: 125px;
+    }
+    .footer-promo__text {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 100%;
+        color: var(--white);
+        max-width: 401px;
+        margin-top: 35px;
+        margin-bottom: 33px;
+    }
+
+    .footer-promo__button {
+        gap: 8px;
+        width: 156px;
+        height: 36px;
+        background: var(--white);
+        border-radius: 16px;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--main-text);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .footer-promo__button:hover {
+        background: #f0f0f0;
+        transform: translateY(-2px);
+    }
+
+    .button__arrow {
+        width: 17px;
+        height: 15px;
+    }
+    .block-graph {
+        position: absolute;
+        top: 109px;
+        left: 840px;
+    }
+    .img__block-graph_mobile2 {
+        display: none;
+    }
 }
