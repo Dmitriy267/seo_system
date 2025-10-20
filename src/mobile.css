@@ -735,6 +735,7 @@
     .footer-promo {
         border-radius: 33px;
         background-size: 100% 100%;
+        background-image: url('/images/frame/Rectangle\ 2833.png');
         background-position: center;
         max-width: 342px;
         height: 600px;
