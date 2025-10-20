@@ -110,6 +110,13 @@ h6 {
     --white: white;
     --additionally: #f4f4f4;
 }
+@media screen and (max-width: 2000px) {
+    [class*='__container'] {
+        max-width: 1840px;
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+}
 @media screen and (max-width: 1440px) {
     [class*='__container'] {
         max-width: 1350px;
@@ -124,7 +131,13 @@ h6 {
         padding: 0px 10px;
     }
 }
-
+@media screen and (max-width: 768px) {
+    [class*='__container'] {
+        max-width: 720px;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+}
 @media screen and (max-width: 390px) {
     [class*='__container'] {
         max-width: 372px;

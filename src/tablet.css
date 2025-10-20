@@ -1,4 +1,4 @@
-@media screen and (min-width: 391px) and (max-width: 1194px) {
+@media screen and (min-width: 769px) and (max-width: 1194px) {
     .menu__header {
         display: flex;
         flex-direction: column;

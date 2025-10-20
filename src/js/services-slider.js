@@ -37,11 +37,14 @@ class ServicesSlider {
     }
 
     disableSlider() {
+        // Перенес стили в mobile.css
+        this.slidesContainer.classList.add('card__slide_grid');
+        this.slidesContainer.classList.remove('card__slide_flex');
         // Преобразуем в grid для tablet/desktop
-        this.slidesContainer.style.display = 'grid';
-        this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
-        this.slidesContainer.style.gap = '18px';
-        this.slidesContainer.style.transform = 'none';
+        // this.slidesContainer.style.display = 'grid';
+        // this.slidesContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        // this.slidesContainer.style.gap = '18px';
+        // this.slidesContainer.style.transform = 'none';
 
         // Сбрасываем стили карточек
         this.slides.forEach((card) => {
@@ -108,9 +111,12 @@ class ServicesSlider {
         if (wasMobile !== this.isMobile) {
             if (this.isMobile) {
                 // Переключились на mobile - включаем слайдер
-                this.slidesContainer.style.display = 'flex';
-                this.slidesContainer.style.gridTemplateColumns = 'none';
-                this.slidesContainer.style.gap = '18';
+                //Перенесем стили в  css
+                this.slidesContainer.classList.remove('card__slide_grid');
+                this.slidesContainer.classList.add('card__slide_flex');
+                // this.slidesContainer.style.display = 'flex';
+                // this.slidesContainer.style.gridTemplateColumns = 'none';
+                // this.slidesContainer.style.gap = '18';
                 this.dotsContainer.style.display = 'flex';
                 this.initSlider();
             } else {
