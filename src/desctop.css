@@ -163,19 +163,10 @@
     }
 
     /* ===== SERVICES GRID DESKTOP ===== */
-    .services-grid {
-        padding: 80px 0;
-    }
-
-    .services-grid__container {
-        max-width: 1440px;
-        margin: 0 auto;
-        padding: 0 40px;
-    }
 
     .services-grid__content {
         display: flex;
-        gap: 24px;
+        gap: 10px;
         height: 348px;
     }
 
@@ -235,38 +226,42 @@
         line-height: 100%;
         color: white;
         transform: rotate(-90deg);
+        text-shadow: 1px 4px 4px 0 rgba(12, 45, 93, 0.28);
         white-space: nowrap;
+    }
+    .text_width {
+        height: 35px;
     }
 
     /* Позиционирование вертикального текста */
     .service-item[data-item='2'] .service-item__vertical-text {
         width: 143px;
-        top: 80px;
-        left: 25px;
+        top: 144px;
+        left: -36px;
     }
 
     .service-item[data-item='3'] .service-item__vertical-text {
         width: 99px;
-        top: 124px;
-        left: 25px;
+        top: 165px;
+        left: -14px;
     }
 
     .service-item[data-item='4'] .service-item__vertical-text {
         width: 143px;
-        top: 80px;
-        left: 17px;
+        top: 136px;
+        left: -33px;
     }
 
     .service-item[data-item='5'] .service-item__vertical-text {
         width: 147px;
-        top: 76px;
-        left: 25px;
+        top: 141px;
+        left: -38px;
     }
 
     .service-item[data-item='6'] .service-item__vertical-text {
         width: 99px;
-        top: 124px;
-        left: 25px;
+        top: 165px;
+        left: -12px;
     }
 
     /* Нумерация */
@@ -283,6 +278,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 100%;
+        text-transform: uppercase;
         color: #393939;
         bottom: 13px;
         left: 13px;
@@ -294,8 +290,24 @@
         width: 252px;
         height: 100%;
         position: relative;
+        padding: 15px 14px;
+    }
+    .bg-item__open1 {
+        background-image: url('/images/accardeon/Rectangle\ 2849.png');
+    }
+    .bg-item__open2 {
+        background-image: url('/images/accardeon/rectangle-03.png');
+    }
+    .bg-item__open3 {
+        background-image: url('/images/accardeon/rectangle-04.png');
     }
 
+    .bg-item__open4 {
+        background-image: url('/images/accardeon/rectangle-05.png');
+    }
+    .bg-item__open5 {
+        background-image: url('/images/accardeon/rectangle-06.png');
+    }
     .service-item__bg {
         position: absolute;
         top: 0;
@@ -311,9 +323,14 @@
         z-index: 2;
         width: 100%;
         height: 100%;
+        border-radius: 33px;
+        width: 220px;
+        height: 317px;
         padding: 15px 14px;
         background: rgba(2, 75, 186, 0.26);
         backdrop-filter: blur(72.72px);
+        box-shadow: inset 0 2px 2px 0 rgba(255, 255, 255, 0.15),
+            inset 0 0 34px 0 rgba(255, 255, 255, 0.05);
         display: flex;
         flex-direction: column;
     }
@@ -347,19 +364,21 @@
 
     /* Body открытого состояния */
     .service-item__body {
-        margin-top: auto;
+        margin-top: 18px;
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        justify-content: space-between;
+    }
+    .item__body_height {
+        height: 194px;
     }
 
     .service-item__title {
-        font-family: Roboto;
         font-weight: 500;
         font-size: 24px;
-        line-height: 120%;
-        color: white;
-        text-transform: lowercase;
+        line-height: 100%;
+        color: var(--white);
+        text-transform: uppercase;
     }
 
     .service-item__title::first-letter {
@@ -367,13 +386,16 @@
     }
 
     .service-item__description {
-        font-family: Roboto;
         font-weight: 400;
         font-size: 16px;
-        line-height: 130%;
-        color: white;
+        line-height: 100%;
+        color: var(--white);
     }
 
+    .block-button_right {
+        display: flex;
+        justify-content: end;
+    }
     .service-item__button {
         display: flex;
         align-items: center;
@@ -388,7 +410,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
-        color: #393939;
+        color: var(--main-text);
         cursor: pointer;
         transition: all 0.3s ease;
     }
@@ -549,6 +571,7 @@
     .slider {
         display: none;
     }
+    /* ===== AUDIT SECTION DESCTOP ===== */
     .section__audit {
         padding-top: 50px;
     }
@@ -638,11 +661,8 @@
         line-height: 150%;
         color: var(--main-text);
     }
-    .block__system_bottom {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
+
+    /* ===== AUDIT SECTION DESCOPT ===== */
 
     .section__system {
         padding-top: 50px;
@@ -651,6 +671,12 @@
         display: flex;
         width: 100%;
         gap: 265px;
+    }
+
+    .block__system_bottom {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
     .block__system_top-left {
         display: flex;

@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script defer  src="./src/js/accardion.js"></script>
          <script defer  src="./src/js/services-grid.js"></script>
         <script defer  src="./src/js/gumburger.js"></script>
         <script defer  src="./src/js/slider.js"></script>
@@ -155,7 +154,7 @@
                 <div class="block__main_middle">
 
                     <div class="services-grid">
-  <div class="services-grid__container">
+ 
     <div class="services-grid__content">
       <!-- Item 1 - всегда открытый -->
       <div class="service-item service-item--main" data-item="1">
@@ -200,36 +199,38 @@
         </div>
 
         <!-- Открытое состояние -->
-        <div class="service-item__open">
+        <div class="service-item__open bg-item__open1">
           <div
             class="service-item__bg"
-            style="
-              background-image: url('/public/images/accardeon/rectangle-02.png');
-            "
+           
+            
           ></div>
           <div class="service-item__content-overlay">
             <div class="service-item__header">
               <div class="service-item__number">02</div>
               <div class="service-item__icon">
                 <img
-                  src="/public/images/accardeon/component-02.png"
+                  src="/images/accardeon/component-02.png"
                   alt="Digital продукты"
                 />
               </div>
             </div>
-            <div class="service-item__body">
+            <div class="service-item__body item__body_height">
               <h3 class="service-item__title">Digital продукты</h3>
-              <p class="service-item__description">
+              <p class="service-item__description ">
                 Создаем и развиваем digital-продукты: от веб-сервисов и
                 мобильных приложений до сложных платформ.
               </p>
-              <button class="service-item__button">
+              <div class="block-button_right">
+                 <button class="service-item__button">
                 Подробнее
                 <img
-                  src="/public/images/accardeon/vector-right.png"
+                  src="/images/accardeon/vector-right.png"
                   alt="Стрелка"
                 />
               </button>
+              </div>
+            
             </div>
           </div>
         </div>
@@ -244,10 +245,8 @@
 
         <div class="service-item__open">
           <div
-            class="service-item__bg"
-            style="
-              background-image: url('/public/images/accardeon/rectangle-03.png');
-            "
+            class="service-item__bg bg-item__open2"
+          
           ></div>
           <div class="service-item__content-overlay">
             <div class="service-item__header">
@@ -259,19 +258,22 @@
                 />
               </div>
             </div>
-            <div class="service-item__body">
+            <div class="service-item__body item__body_height">
               <h3 class="service-item__title">маркетинг</h3>
-              <p class="service-item__description">
+              <p class="service-item__description ">
                 Настраиваем и ведем рекламу, продвигаем в соцсетях, привлекаем
                 лидов и повышаем лояльность.
               </p>
-              <button class="service-item__button">
+               <div class="block-button_right">
+                   <button class="service-item__button">
                 Подробнее
                 <img
                   src="/public/images/accardeon/vector-right.png"
                   alt="Стрелка"
                 />
               </button>
+               </div>
+            
             </div>
           </div>
         </div>
@@ -280,40 +282,41 @@
       <!-- Item 4 - SEO продвижение -->
       <div class="service-item service-item--closed" data-item="4">
         <div class="service-item__closed">
-          <div class="service-item__vertical-text">Топовое SEO продвижение</div>
+          <div class="service-item__vertical-text text_width">Топовое SEO <br/>продвижение</div>
           <div class="service-item__number">04</div>
         </div>
 
         <div class="service-item__open">
           <div
-            class="service-item__bg"
-            style="
-              background-image: url('/public/images/accardeon/rectangle-04.png');
-            "
+            class="service-item__bg  bg-item__open3"
+          
           ></div>
           <div class="service-item__content-overlay">
             <div class="service-item__header">
               <div class="service-item__number">04</div>
               <div class="service-item__icon">
                 <img
-                  src="/public/images/accardeon/component-04.png"
+                  src="/images/accardeon/component-04.png"
                   alt="SEO продвижение"
                 />
               </div>
             </div>
-            <div class="service-item__body">
+            <div class="service-item__body item__body_height">
               <h3 class="service-item__title">топовое seo продвижение</h3>
-              <p class="service-item__description">
+              <p class="service-item__description ">
                 Продвигаем сайты, повышаем их видимость и привлекаем целевой
                 трафик для роста бизнеса.
               </p>
-              <button class="service-item__button">
+                <div class="block-button_right">
+                    <button class="service-item__button">
                 Подробнее
                 <img
-                  src="/public/images/accardeon/vector-right.png"
+                  src="/images/accardeon/vector-right.png"
                   alt="Стрелка"
                 />
               </button>
+                </div>
+            
             </div>
           </div>
         </div>
@@ -328,34 +331,35 @@
 
         <div class="service-item__open">
           <div
-            class="service-item__bg"
-            style="
-              background-image: url('/public/images/accardeon/rectangle-05.png');
-            "
+            class="service-item__bg bg-item__open4"
+           
           ></div>
           <div class="service-item__content-overlay">
             <div class="service-item__header">
               <div class="service-item__number">05</div>
               <div class="service-item__icon">
                 <img
-                  src="/public/images/accardeon/component-05.png"
+                  src="/images/accardeon/component-05.png"
                   alt="Создание сайтов"
                 />
               </div>
             </div>
-            <div class="service-item__body">
+            <div class="service-item__body item__body_height">
               <h3 class="service-item__title">Создание сайтов</h3>
-              <p class="service-item__description">
+              <p class="service-item__description ">
                 Разрабатываем продающие сайты, которые привлекают клиентов,
                 отражают ценности бренда.
               </p>
-              <button class="service-item__button">
+                 <div class="block-button_right">
+                   <button class="service-item__button">
                 Подробнее
                 <img
-                  src="/public/images/accardeon/vector-right.png"
+                  src="/images/accardeon/vector-right.png"
                   alt="Стрелка"
                 />
               </button>
+                 </div>
+           
             </div>
           </div>
         </div>
@@ -370,40 +374,43 @@
 
         <div class="service-item__open">
           <div
-            class="service-item__bg"
-            style="
-              background-image: url('/public/images/accardeon/rectangle-06.png');
-            "
+            class="service-item__bg bg-item__open5"
+        
           ></div>
           <div class="service-item__content-overlay">
             <div class="service-item__header">
               <div class="service-item__number">06</div>
               <div class="service-item__icon">
                 <img
-                  src="/public/images/accardeon/component-06.png"
+                  src="/images/accardeon/component-06.png"
                   alt="Дизайн"
                 />
               </div>
             </div>
-            <div class="service-item__body">
+            <div class="service-item__body item__body_height">
               <h3 class="service-item__title">дизайн</h3>
-              <p class="service-item__description">
+              <p class="service-item__description ">
                 Создаем целостный визуальный образ бренда: от логотипа и
                 айдентики до дизайна интерфейсов.
               </p>
-              <button class="service-item__button">
+                <div class="block-button_right">
+                   <button class="service-item__button">
                 Подробнее
                 <img
-                  src="/public/images/accardeon/vector-right.png"
+                  src="/images/accardeon/vector-right.png"
                   alt="Стрелка"
                 />
               </button>
+                </div>
+              
             </div>
           </div>
         </div>
       </div>
+
+      
     </div>
-  </div>
+  
 </div>
 
 

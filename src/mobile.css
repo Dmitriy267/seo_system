@@ -94,6 +94,35 @@
     .block__main_middle {
         flex-direction: column;
     }
+    /* ===== SERVICES GRID TABLET  начало===== */
+    .services-grid__content {
+        gap: 0px;
+    }
+
+    /* Основные стили для всех items */
+    .service-item {
+        border-radius: 30px;
+    }
+
+    /* Item 1 - всегда открытый */
+    .service-item--main {
+        width: 353px;
+    }
+
+    .service-item--main .service-item__bg {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    [data-item='2'],
+    [data-item='3'],
+    [data-item='4'],
+    [data-item='5'],
+    [data-item='6'] {
+        display: none;
+    }
+
+    /* ===== SERVICES GRID TABLET  конец===== */
+
     .seo__main {
         width: 353px;
         padding-top: 14px;
@@ -301,6 +330,84 @@
     .svg-icon-6-4 {
         fill: var(--bg-blue);
     }
+
+    /* ===== AUDIT SECTION MOBILE ===== */
+    .section__audit {
+        padding-top: 39px;
+    }
+    .block__audit_all {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .block-link__audit {
+        display: flex;
+        width: 195px;
+        flex-direction: column;
+        gap: 21px;
+    }
+    .h2__audit {
+        font-size: 1.5rem;
+        width: 183px;
+    }
+
+    .block-info__audit {
+        display: flex;
+        flex-wrap: wrap;
+        width: 342px;
+        height: 150px;
+        gap: 7px;
+    }
+    .item-info__audit_flex {
+        gap: 18px;
+        width: 167px;
+        height: 71px;
+    }
+    .item__audit_hidden1,
+    .item__audit_hidden2,
+    .item__audit_hidden3,
+    .item__audit_hidden4 {
+        display: none;
+    }
+    .item__audit_hidden5,
+    .item__audit_hidden6,
+    .item__audit_hidden7,
+    .item__audit_hidden8 {
+        display: flex;
+    }
+    .block-img__audit {
+        width: 53px;
+        height: 53px;
+    }
+    .img__audit5 {
+        width: 25px;
+        height: 25px;
+    }
+    .img__audit6 {
+        width: 25px;
+        height: 25px;
+    }
+    .img__audit7 {
+        width: 37px;
+        height: 37px;
+    }
+    .img__audit8 {
+        width: 31px;
+        height: 31px;
+    }
+
+    .block-text__audit_column p {
+        font-size: 0.75rem;
+        line-height: 150%;
+    }
+    .block-text__audit_column span {
+        font-size: 1.25rem;
+        line-height: 150%;
+    }
+
+    /* ===== AUDIT SECTION MOBILE ===== */
 
     /* ===== SISTEM SECTION MOBILE ===== */
 

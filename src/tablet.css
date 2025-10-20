@@ -38,62 +38,130 @@
     }
 
     /* ===== SERVICES GRID TABLET ===== */
-
-    .services-grid {
-        padding: 60px 0;
-    }
-
-    .services-grid__container {
-        max-width: 1126px;
-        padding: 0 10px;
-    }
-
     .services-grid__content {
-        height: 300px;
-        gap: 16px;
+        gap: 11px;
     }
 
+    /* Item 1 - всегда открытый */
     .service-item--main {
-        width: 500px;
+        width: 614px;
     }
 
+    .service-item--main .service-item__bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Закрытое состояние для items 2-6 */
     .service-item--closed {
-        width: 60px;
+        width: 58px;
     }
 
-    .service-item--open {
-        width: 200px;
+    .text_width {
+        height: 37px;
     }
 
+    /* Позиционирование вертикального текста */
+    .service-item[data-item='2'] .service-item__vertical-text {
+        width: 143px;
+        top: 144px;
+        left: -36px;
+    }
+
+    .service-item[data-item='3'] .service-item__vertical-text {
+        width: 99px;
+        top: 165px;
+        left: -14px;
+    }
+
+    .service-item[data-item='4'] .service-item__vertical-text {
+        width: 143px;
+        top: 136px;
+        left: -33px;
+    }
+
+    .service-item[data-item='5'] .service-item__vertical-text {
+        width: 147px;
+        top: 141px;
+        left: -38px;
+    }
+
+    .service-item[data-item='6'] .service-item__vertical-text {
+        width: 99px;
+        top: 165px;
+        left: -12px;
+    }
+
+    /* Нумерация */
+    .service-item__number {
+        width: 35.3px;
+        height: 35.3px;
+        bottom: 13px;
+        left: 13px;
+    }
+
+    /* Открытое состояние */
     .service-item__open {
-        width: 200px;
-    }
-
-    .service-item__vertical-text {
-        font-size: 16px;
+        width: 212px;
+        padding: 11px 11px;
     }
 
     .service-item__content-overlay {
-        padding: 12px 10px;
-    }
-
-    .service-item__title {
-        font-size: 20px;
-    }
-
-    .service-item__description {
-        font-size: 14px;
+        width: 192px;
+        height: 326px;
+        padding: 15px 14px;
     }
 
     .service-item__icon {
-        width: 60px;
-        height: 60px;
+        width: 66px;
+        height: 66px;
+        border-radius: 36px;
     }
 
     .service-item__icon img {
-        width: 35px;
-        height: 35px;
+        width: 38px;
+        height: 38px;
     }
+
+    /* Body открытого состояния */
+    .service-item__body {
+        margin-top: 14px;
+    }
+    .item__body_height {
+        height: 208px;
+    }
+
+    .service-item__title {
+        font-size: 1.25rem;
+    }
+
+    .service-item__description {
+        font-size: 0.875rem;
+    }
+
+    .service-item__button:hover {
+        background: #f0f0f0;
+    }
+
+    .service-item__button img {
+        width: 14px;
+        height: 16px;
+    }
+
+    /* Активное состояние (открытый item) */
+    .service-item--open {
+        width: 212px;
+    }
+
+    .service-item--open .service-item__closed {
+        display: none;
+    }
+
+    .service-item--open .service-item__open {
+        display: block;
+    }
+
+    /* ===== SERVICES GRID TABLET  конец===== */
 
     .seo__main {
         width: 614px;
@@ -106,7 +174,7 @@
         height: 29px;
     }
     .item__seo_decor::after {
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0);
         width: 6px;
         height: 6px;
     }
