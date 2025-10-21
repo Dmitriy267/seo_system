@@ -42,7 +42,12 @@
 }
 .btn_blue {
     background-color: var(--bg-blue);
+    transition: background-color 0.3s ease-in-out;
 }
+.btn_blue:hover {
+    background-color: #223aa6;
+}
+
 .svg-ball {
     fill: white;
     width: 10px;
@@ -96,6 +101,7 @@
     text-align: center;
     color: var(--white);
 }
+
 .arrow_right {
     width: 24px;
     height: 24px;
