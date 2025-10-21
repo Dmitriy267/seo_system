@@ -5,32 +5,32 @@
 }
 @font-face {
     font-family: Roboto;
-    src: url('../public/fonts/Roboto/static/Roboto-Medium.ttf');
+    src: url('/fonts/Roboto/static/Roboto-Medium.ttf');
     font-weight: 500;
 }
 @font-face {
     font-family: Roboto;
-    src: url('../public/fonts/Roboto/static/Roboto-SemiBold.ttf');
+    src: url('/fonts/Roboto/static/Roboto-SemiBold.ttf');
     font-weight: 600;
 }
 @font-face {
     font-family: Roboto;
-    src: url('../public/fonts/Roboto/static/Roboto-Bold.ttf');
+    src: url('/fonts/Roboto/static/Roboto-Bold.ttf');
     font-weight: 700;
 }
 @font-face {
     font-family: 'Roboto Mono';
-    src: url('../public/fonts/Roboto_Mono/static/RobotoMono-Medium.ttf');
+    src: url('/fonts/Roboto_Mono/static/RobotoMono-Medium.ttf');
     font-weight: 500;
 }
 @font-face {
     font-family: Segoe;
-    src: url('../public/fonts/Sergoe/segoe-ui-semibold.ttf');
+    src: url('/fonts/Sergoe/segoe-ui-semibold.ttf');
     font-weight: 600;
 }
 @font-face {
     font-family: Inter;
-    src: url('../public/fonts/Inter/static/Inter_18pt-Medium.ttf');
+    src: url('/fonts/Inter/static/Inter_18pt-Medium.ttf');
     font-weight: 500;
 }
 body {
