@@ -607,6 +607,7 @@
     }
     .block-info__audit {
         display: flex;
+        flex-wrap: wrap;
         gap: 37px;
     }
     .item-info__audit_flex {
@@ -713,6 +714,11 @@
     }
     .block__system_bottom {
         margin-top: 60px;
+    }
+    .slider-slides-cards {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 26px;
     }
     /*Стили для переворачивающихся карточек*/
 
@@ -889,7 +895,9 @@
 
     .services__slides {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 46px;
         width: 100%;
     }
 

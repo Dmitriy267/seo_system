@@ -250,6 +250,7 @@
         width: 229px;
     }
     .block-info__audit {
+        flex-wrap: wrap;
         gap: 17px;
     }
 
@@ -310,6 +311,11 @@
 
     .block__system_bottom {
         margin-top: 49px;
+    }
+    .slider-slides-cards {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
     }
     /*Стили для переворачивающихся карточек*/
 
@@ -379,7 +385,11 @@
     .services__slider {
         overflow: visible;
     }
-
+    .services__slides {
+        justify-content: flex-start;
+        gap: 45px;
+        flex-wrap: wrap;
+    }
     .services__card {
         width: 338px;
         height: 369px;
@@ -506,8 +516,8 @@
     }
 
     .block-graph {
-        width: 340px;
-        height: 251px;
+        max-width: 340px;
+        max-height: 251px;
         top: 94px;
         left: 717px;
     }

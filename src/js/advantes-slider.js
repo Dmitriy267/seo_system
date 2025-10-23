@@ -45,7 +45,7 @@ class SliderCards {
     }
 
     updateSlidePosition() {
-        const offset = this.currentIndex * 100;
+        const offset = this.currentIndex * 104;
         this.slider.querySelector(
             '.slider-slides-cards'
         ).style.transform = `translateX(-${offset}%)`;
