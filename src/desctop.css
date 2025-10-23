@@ -608,7 +608,7 @@
     .block-info__audit {
         display: flex;
         flex-wrap: wrap;
-        gap: 37px;
+        gap: 35px;
     }
     .item-info__audit_flex {
         display: flex;
@@ -897,7 +897,7 @@
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        gap: 46px;
+        gap: 44px;
         width: 100%;
     }
 
