@@ -4,7 +4,7 @@
 .menu__header {
     display: flex;
     flex-direction: column;
-    width: 1600px;
+    width: 94%;
     gap: 23px;
     margin-left: 50px;
 }
